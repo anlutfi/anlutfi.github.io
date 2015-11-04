@@ -27,47 +27,48 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
     <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |
     <span class="skill">Java</span> | <span class="skill">SQL</span>
     <br>Human Languages: Native Portuguese | English (TOEFL IBT 115/120)
-</p>
+</p><br><br>
     
-<table style= cellpadding="0" cellspacing="20" border="0">
+<!--<table style= cellpadding="0" cellspacing="20" border="0">
       <tr>
-        <td width="50%" valign="top">
+        <td width="50%" valign="top">-->
           <h1>Current Employment</h1>
           {% for post in site.categories.current %}
-              <h1>
+              <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h1>
+              </h2>
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           <h1>Previous Employment</h1>
           {% for post in site.categories.previous %}
-              <h1>
+              <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h1>
+              </h2>
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           
           <h1>Documents and Publications</h1>
           {% for post in site.categories.thesis %}
-              <h1>
+              <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h1>
+              </h2>
           {{ post.excerpt }}<br>
           {% endfor %}
           
           {% for post in site.categories.documents %}
-              <h1>
+              <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h1>
+              </h2>
           {{ post.excerpt }}<br>
           {% endfor %}
-        </td>      
-        <td width="50%" valign="top">
+        <!--</td>
+        <td width="50%" valign="top">-->
+          <hr>
           {% for post in site.categories.courses %}
               <h1>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              {{ post.title }}
               </h1>
           {{ post.excerpt }}<br>
           {% endfor %}
@@ -75,15 +76,15 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
           <h1>Programming Portfolio</h1>
           These are programs that I either coded for work, fun or both. Anything done under contract is here after owner's consent. <br><br>
           {% for post in site.categories.portfolio %}
-              <h1>
+              <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h1>
+              </h2>
           {{ post.excerpt }}<br>
           {% endfor %}
-        </td>
+        <!--</td>
         
       </tr>
-    </table>
+    </table>-->
   
   
 
