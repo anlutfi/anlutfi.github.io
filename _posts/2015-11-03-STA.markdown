@@ -4,7 +4,7 @@ title:  "Intern & Trainee @ StoneAge Tech"
 date:   2015-11-03 16:48:07 -0200
 categories: [previous, employment]
 permalink: employerSTA
-excerpt_separator: <!--more-->
+
 ---
 <b>From July 2006 to January 2009</b> - First as an <b>Intern</b> then as a <b>Trainee</b>, I had my first experience managing proofs of concept, projects and client relations. I coded, on <span class="skill">Delphi/Pascal</span>, database and statistical analysis software on a proprietary high speed platform.
 
