@@ -1,371 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="alutfi.css">
-<meta charset="UTF-8">
-<meta name="author" content="Antonio Lutfi">
-<meta name="description" content="Antonio Lutfi's online resume and portfolio">
-<meta name="keywords" content="computer science, algorithms, data structures, programming,
-                 C, C++, C#, python, java, delphi, pascal, sql, BSc, MSc, stochastic simulation,
-                 database">
-<title>Antonio N. Lutfi</title>
-</head>
+---
+layout: default
+---
 
-<body>
-  <div class="center">
-    <br><br><br>
-    
-    <div class="header">
-      <br>
-      <div class="text">
-        Last update: 02 Nov 2015
-      </div>
-      <div style="text-align:right; margin-right:15px; width:60%; float:right;">
-        <a target="_blank" class="header_footer" href="http://blog.antoniolutfi.com.br">
-          <b>BLOG</b></a>
-          &nbsp|&nbsp
-        <a target="_blank" class="header_footer" href="mailto:antonio.lutfi@gmail.com">
-          antonio.lutfi@gmail.com</a>
-          &nbsp|&nbsp
-        <a target="_blank" class="header_footer"
-         href="http://www.linkedin.com/pub/antonio-lutfi/55/404/a05">
-          LinkedIn</a>
-          &nbsp|&nbsp
-        <a target="_blank" class="header_footer" href="http://lattes.cnpq.br/2605931417659761">
-          Lattes CV</a>
-      </div>
-    </div>
+Hello, and thank you for visiting. I am not a fan of writing long self descriptions. To be completely honest, I don't enjoy reading them either. I feel it's more enjoyable and honest to know a person based on his or hers opinions. Therefore I will keep this page on a more sober tone and invite you to read my <a target="_blank" class="header_footer" href="http://blog.antoniolutfi.com.br">blog</a> for the full picture.
+<br><br><br>
+
+
+<h1>Resume and Portfolio</h1>
+
+Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
+
+<p class="text">
     <br>
-    <h1>Antonio Nascimento Lutfi</h1>        
-    <br><br>
-    <iframe src='http://www.preceden.com/timelines/167715-cv/embed' width='117%' height='130'
-     frameborder='0' seamless>
-    </iframe>
-    <span class="text">[click and drag]</span>
-    
-    
-    <br><br><br>
-    
-    <div class="text">
-      Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
-    </div>
-    
-    <div style="text-align:right; margin-right:15px; float:right;">
-        <a target="_blank" href="http://blog.antoniolutfi.com.br">
-          <b>BLOG</b></a>
-          &nbsp|&nbsp
-        <a target="_blank" href="mailto:antonio.lutfi@gmail.com">
-          antonio.lutfi@gmail.com</a>
-          &nbsp|&nbsp
-        <a target="_blank" 
-         href="http://www.linkedin.com/pub/antonio-lutfi/55/404/a05">
-          LinkedIn</a>
-          &nbsp|&nbsp
-        <a target="_blank" href="http://lattes.cnpq.br/2605931417659761">
-          Lattes CV</a>
-    </div>
-    
-    <br><br>
-    
-    <p class="text">
-      <br>
-      <b>MSc Informatics</b> at Pontifical Catholic University
-      (Rio de Janeiro, Brazil). April 2015.
-      <br>
-      <b>BSc Computer Science</b> at Pontifical Catholic University
-      (Rio de Janeiro, Brazil). July 2010.  
-      <br><br>
-    </p>
-    
-    <p class="text">
-      Computer Languages:
-      <span class="skill">C</span> | <span class="skill">C++</span> |
-      <span class="skill">C#</span> | <span class="skill">Python</span> |
-      <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |
-      <span class="skill">Java</span> | <span class="skill">SQL</span>
-      <br>Human Languages: Native Portuguese | English (TOEFL IBT 115/120)
-    </p>
-    
+    <b>MSc Informatics</b> at Pontifical Catholic University
+    (Rio de Janeiro, Brazil). April 2015.
     <br>
+    <b>BSc Computer Science</b> at Pontifical Catholic University
+    (Rio de Janeiro, Brazil). July 2010.  
+    <br>
+</p>
+
+<p class="text">
+    Computer Languages:
+    <span class="skill">C</span> | <span class="skill">C++</span> |
+    <span class="skill">C#</span> | <span class="skill">Python</span> |
+    <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |S
+    <span class="skill">Java</span> | <span class="skill">SQL</span>
+    <br>Human Languages: Native Portuguese | English (TOEFL IBT 115/120)
+</p>
     
-    <table style="width:100%;" cellpadding="0" cellspacing="30" border="0">
+<table style= cellpadding="0" cellspacing="20" border="0">
       <tr>
         <td width="50%" valign="top">
-          <h2>Current Employment</h2>
-          <p>
-            I am a Programmer at <a target="_blank"
-            href="http://www.icad.puc-rio.br">
-            ICAD/VisionLab</a>,
-            Prof. Bruno Feijó's Computer Vision, CG and Games lab at PUC-Rio <b>since June 2013</b>.
-            I'm currently one of the lead programmers in a 3D game written in 
-            <span class="skill">C#</span> using <span class="skill">Unity 3D</span>. One of its main
-            research goals is to improve narrative and storytelling process on videogames.
-            <br>
-            I was also the sole programmer responsible for writing two projects for 
-            <a target="_blank" href="http://redeglobo.globo.com/">Rede Globo</a>, the largest 
-            brazilian TV network.
-            <br>
-            The first one was MarkerFinder, which aimed to make the process of mapping fiducial 
-            markers on a studio's ceiling automatic. This map of markers is used to calculate a 
-            camera's position in the studio, making it possible to superimpose graphical effects 
-            with precision. It's coded in <span class="skill">C++</span> using
-            <a target="_blank" href="http://opencv.org/">OpenCV</a>.
-            <br>
-            The second deals with loading video frames to GPU, for fast processing. 
-            It was written in <span class="skill">C</span>.
-          </p>
+          <h1>Current Employment</h1>
+          {% for post in site.categories.current %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
           <hr>
-          <h2>Previous Employment</h2>
-          <p>
-            <h4>ICA PUC-Rio - Applied Computational Intelligence Lab, Rio de Janeiro, Brazil</h4>
-            <b>From August 2010 to July 2012</b> - As a Database Analyst
-            (<span class="skill">SQL</span>), I was part of
-            the team
-            developing project Municípios Inteligentes <i>(Intelligent Cities)</i>, which
-            aims to improve the management of public resources throughout the state of
-            Rio de Janeiro with the use of Artificial Intelligence.
-          </p>
-          <br>
-          <p>
-            <h4>StoneAge Tech, Rio de Janeiro, Brazil</h4>
-              <b>From July 2006 to January 2009</b> - First as an <b>Intern</b> then as a
-              <b>Trainee</b>, I had my first experience managing proofs of concept,
-              projects and client relations.
-              I coded, on <span class="skill">Delphi/Pascal</span>, database
-              and statistical analysis software on a proprietary high speed platform.
-          </p>
-          <br>
+          <h1>Previous Employment</h1>
+          {% for post in site.categories.previous %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
           <hr>
           
-          <h2>Documents and Publications</h2>
-          <p>
-            <h4>
-              Um Framework para Game Shows Interativos de TV com Realidade Aumentada e Segunda Tela
-              <br><i>(A Framework for TV Game Shows with Augmented Reality and Second Screen)</i>
-            </h4>
-            <b>April 2015</b>
-            <br>Authors: Antonio Lutfi, Bruno Feijó
-            <br><br>My MSc thesis, in Portuguese. It proposes a framework for the development of 
-            interactive TV game shows using Augmented Reality in TV studios, which allows the 
-            participation of viewers using tablets and smartphones as the Second Screen. 
-            It also investigates new convergence paradigms between TV and video games. 
-            All the code in this project was written in <span class="skill">Python</span>.
-            <br><a target="_blank"
-            href="https://www.dropbox.com/s/7vlref5lteqizg7/dissertacao.pdf?dl=0">
-                  <i>Full text(Portuguese)</i>
-                </a> | <a target="_blank"
-                        href="https://www.dropbox.com/s/bb5pucpw06r43lp/thesisSummary.pdf?dl=0">
-                  <i>Summary(English)</i>
-                </a>
-                <br>
-                </a><a target="_blank"
-                        href="http://www.icad.puc-rio.br/~gameshow/frameworkGSI/htmlDocumentation/annotated.html">
-                  <i><b>HTML Code Documentation</b></i>
-                
-                <br>
-                </a><a target="_blank"
-                        href="http://www.icad.puc-rio.br/~gameshow/frameworkGSI/coreSources/">
-                  <i><b>Project Source (Python)</b></i>
-                </a>
-                <br>
-                </a><a target="_blank"
-                        href="http://www.icad.puc-rio.br/~gameshow/frameworkGSI/checkers/">
-                  <i><b>Simple test case, a game of Checkers (Python)</b></i>
-                </a>
-          </p><br>
-          <p>
-            <h4>
-              Análise Crítica: A Relação entre Realidade Aumentada e Publicidade
-              <br><i>(The Relationship between Augmented Reality and Advertising, a Critical Survey)</i>
-            </h4>
-            <b>June 2010</b>
-            <br>Authors: Antonio Lutfi, Alberto Raposo
-            <br><br>My senior thesis, in Portuguese. It presents an analysis
-            of the Augmented Reality applications in Advertising in 2010, its advantages,
-            conceptual limitations and opportunities for improvement
-            using advertising theorists as base
-            for the evaluation. It takes the relationship between the two fields
-            as an example of communication between Academic Research and Market. 
-            <br><a target="_blank"
-            href="https://www.dropbox.com/s/93zxbfh53ix7pg8/Antonio%20Lutfi%20-%20Relacao%20entre%20Realidade%20Aumentada%20e%20Publicidade.pdf">
-                  <i>View and download</i>
-                </a>
-          </p><br>
-          <p>
-            <h4>
-              Classificador de variações de preço para ações na bolsa
-              <br><i>(Stock Price Variaton SVM Classifier)</i>
-            </h4>
-            <b>December 2012</b>
-            <br>Authors: Antonio Lutfi, Andre Novaes
-            <br><br>Describes the results of an experiment for my Machine Learning class.
-            We used a Support Vector Machine (SVM) to decide how a future stock price
-            would behave relative to minimum and maximum thresholds.
-            <br><a target="_blank" href="https://www.dropbox.com/s/4f2ucinmidv0nkx/Andr%C3%A9%20Novaes-Antonio%20Lutfi_machine_learning_1.pdf">
-                  <i>View and download</i>
-                </a>
-          </p><br>
-          <p>
-            <h4>
-              Estudo exploratório inicial para geração automática de narrativas com
-              Agentes BDI para jogos 
-              <br><i>(Inicial Study of Viability for Automated Plot Generation with
-              BDI Agents for Games)</i>
-            </h4>
-            <b>December 2012</b>
-            <br>Authors: Antonio Lutfi
-            <br><br>We conducted a <span class="skill">Java</span> experiment to determine whether 
-            the result of individual
-            interactions by autonomous agents, behaving like literary characters, would result
-            in an interesting plot. It is suggested that a "narrator" could be used to detect
-            the plot's tendency to lose its appeal and stimulate characters to behave in a more
-            interesting manner. The document also presents an overview of the state-of-the-art
-            in Interactive Storytelling.
-            This work was done as part of a Multi-Agent Systems course.
-            <br><a target="_blank" href="https://www.dropbox.com/s/daxc9k18fooeyzp/SMA_2012_2_AntonioLutfi_Monografia.pdf">
-                  <i>View and download</i>
-                </a>
-          </p>
+          <h1>Documents and Publications</h1>
+          {% for post in site.categories.thesis %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
+          
+          {% for post in site.categories.documents %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
         </td>      
         <td width="50%" valign="top">
-          <h2>Graduate Courses</h2>
-          <p>
-            Design and Analysis of Algorithms<br>
-            Stochastic Simulation<br>
-            Machine Learning<br>
-            Artificial Intelligence for 3D Games<br>
-            Computer Animation and Games<br>
-            Narrative Study in Databases<br>
-            Software Transparency<br>
-            Introduction to Multi Agent Systems<br>
-            <i>GPA 9.3/10.0</i>
-            <!--<br><a target="_blank" href="grades.html"><i>Grades</i></a>-->
-          </p>
+          {% for post in site.categories.courses %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
           <hr>
-          <h2>Programming Portfolio</h2>
-          <p>
-            These are programs that I either coded for work, fun or both.
-            Anything done under contract is here after owner's consent.
-          </p>
-          <br>
-          <p>
-            <h4>MarkerFinder</h4>
-            Coded in <span class="skill">C++</span>, it was commissioned by 
-            <a target="_blank" href="http://redeglobo.globo.com/">Rede Globo</a> from 
-            <a target="_blank" href="http://www.icad.puc-rio.br/">
-            ICAD/VisionLab</a>. This project's goal was to make the mapping of fiducial markers 
-            on a studio's ceiling automatic. This mapping process is a crucial preparation step 
-            for the use of <a target="_blank" href="http://www.lightcrafttech.com/">LightCraft</a>
-            Technology. LightCraft uses an extra wide-angle lens equipped to a camera and pointed 
-            to the ceiling, which is covered in fiducial markers. This lens captures the location 
-            of these markers and, with a previously known map, calculates the camera's location in 
-            the studio. The superimposition of virtual elements on the footage is considerably easier 
-            when this location is known. Before <b>MarkerFinder</b>, this mapping was done manually
-            and took about 4 hours, now it takes 20 to 40 minutes. Since this was made for a 
-            brazilian company, it is documented in Portuguese.
-            <br><i><a target="_blank" href="http://www.icad.puc-rio.br/~gameshow/MarkerFinder/sources/htmlDocumentation/annotated.html">
-                HTML Documentation, in Portuguese</a>
-            <br><a target="_blank" href="http://www.icad.puc-rio.br/~gameshow/MarkerFinder/sources/">
-                Source (C++)</a>(requires <a target="_blank" href="http://opencv.org/">OpenCV</a>)
-            <br><a target="_blank" href="http://www.icad.puc-rio.br/~gameshow/MarkerFinder/configFilesVStudio/">
-                Visual Studio configuration files</a>
-            </i>
-          </p>
-          <br>
-          <p>
-            <h4>Travelling Salesman Problem, Heuristics Comparison</h4>
-            Coded in <span class="skill">Python</span>, this was made to compare the performance
-            of different
-            Heuristics to determine the minimal Hamiltonian cycle in a complete graph. This is a
-            famous NP-Complete problem, the Travelling Salesman Problem.
-            <br>It was a requirement of the Design and Analysis of Algorithms course and was
-            made by me, Carla Galdino and Hugo Musso Gualandi.
-            <br><a target="_blank" href="https://www.dropbox.com/sh/iqf3upudbcu5fcc/Ws56lTD2Xz">
-                <i>View and download
-              </a> (requires <a target="_blank" href="http://www.gnuplot.info/"> GnuPlot</a>)</i>
-          </p>
-          <br>
-          <p>
-            <h4>RubberBand</h4>
-            Coded in <span class="skill">C</span>, it is a Heuristic that I conceived to
-            find an upper bound for an instance of the Travelling Salesman Problem.
-            Despite yielding good results, the
-            computational times do not improve on  
-            <a target="_blank"
-            href="http://en.wikipedia.org/wiki/Lin%E2%80%93Kernighan_heuristic">
-            the current state-of-the-art</a>. YET.
-            <br><i>This is an ongoing project of mine. I won't post links for now.</i>
-          </p>
-          <br>
-          <p>
-            <h4>Region Detection in Images</h4>
-            Coded in <span class="skill">R</span>, it uses random walks in images to segment
-            them into regions.
-            <br>This was a requirement for the Stochastic Simulation course and was
-            made by me and Ericsson Leal.
-            <br><a target="_blank"
-            href="https://www.dropbox.com/s/jwx8c32dgxsecvu/random_walk_fase%202.r">
-                <i>Download</i>
-              </a>
-          </p>
-          <br>
-          <p>
-            <h4>Poker Console</h4>
-            Coded in <span class="skill">Python</span>, it calculates the odds of a
-            Texas Hold'em hand being the highest in a game. It considers the number
-            of total hands dealt, the number of players betting, and the current state
-            of the common cards, as well as the hand itself. Contrary to more
-            common "calculators", this one computes the odds of a hand
-            without knowing the opponents'.
-            <br><a target="_blank" href="https://www.dropbox.com/sh/n32n4fxliz2j849/yqPCxD-mcF">
-                <i>View and download</i>
-              </a>
-          </p>
-          <br>
-          <p>
-            <h4>Down Payment Optimizer</h4>
-            Inspired by the raging bull that was driving the real estate prices in
-            Rio de Janeiro to the sky in 2011-13, this <span class="skill">Python</span> script
-            calculates the optimal
-            down payment on a house. The user inputs the value of the house; how much money
-            is set aside; the expected interest on such money; monthly disposable income;
-            the annual interest to be paid to the bank and the number of payments.
-            The script then gives the down payment value that optimizes either total
-            amount of money after all is paid or the average monthly financial impact.
-          </p>
-          <br>
-          <p>
-            <h4>Hunter Prey</h4>
-            Made using <span class="skill">Unity</span> and scripts in
-            <span class="skill">C#</span>, it is a game made as a
-            requirement for the Artificial Intelligence for 3D Games course. It is a competitive
-            game between hunters - the player and the non playable characters (NPC's). The
-            hunters score taking preys to the goals. The speed that a hunter moves is a function
-            of its strength and the prey's weight. The decision making process of an NPC's take in
-            consideration its strength, the intention of those stronger than him, the surrounding
-            preys' distances and weights. It implements the well known A* pathfinding algorithm
-            to find the nearest safe goal and avoid obstacles and enemies. Made by me and Felipe Baldino.
-            <br><a target="_blank" href=https://www.dropbox.com/sh/4d9ut2zm9p85wen/MKsFRnM-zt>
-                <i>Download
-              </a> (It's a big zip file with the whole project and requires the free version of
-                   <a target="_blank" href="https://unity3d.com/unity/download">Unity</i></a>)
-          </p>
+          <h1>Programming Portfolio</h1>
+          These are programs that I either coded for work, fun or both. Anything done under contract is here after owner's consent. <br><br>
+          {% for post in site.categories.portfolio %}
+              <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h1>
+          {{ post.excerpt }}<br>
+          {% endfor %}
         </td>
         
       </tr>
     </table>
-    <br>
-    <div class="footer">
-      <b>Thank you for visiting!</b>
-      <br>
-      Page made by myself with modified portions of
-      <a target="_blank" class="header_footer" href="http://getbootstrap.com/">
-        Bootsrap's CSS</a>. Special thanks to my friend
-      <a target="_blank" class="header_footer" href="http://1ton.rafalop.es/">
-        Rafael Lopes</a>.
-    </div>
-  </div>
   
-</body>
+  
 
-</html> 
+

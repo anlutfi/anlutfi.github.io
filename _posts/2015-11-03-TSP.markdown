@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Travelling Salesman Problem, Heuristics Comparison"
+date:   2015-11-03 16:48:01 -0200
+categories: [portfolio]
+permalink: TSP
+excerpt_separator: <!--more-->
+---
+Coded in <span class="skill">Python</span>, this was made to compare the performance of different Heuristics to determine the minimal Hamiltonian cycle in a complete graph. This is a famous NP-Complete problem, the Travelling Salesman Problem.  
+It was a requirement of the Design and Analysis of Algorithms course and was made by me, Carla Galdino and Hugo Musso Gualandi.  
+[Source (Python)](https://www.dropbox.com/sh/iqf3upudbcu5fcc/Ws56lTD2Xz){:target="_blank"} (requires [GnuPlot](http://www.gnuplot.info/){:target="_blank"})
+<!--more-->

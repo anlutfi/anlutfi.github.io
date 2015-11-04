@@ -1,0 +1,45 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    Thank you for visiting!
+    <br>This site is made with <a target="_blank" href="http://jekyllrb.com/">Jekyll</a>'s default theme.
+    <br>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          {% if site.blog %}
+          <li>
+            <a target="_blank" href="http://blog.antoniolutfi.com.br">blog.antoniolutfi.com.br</a>
+          </li>
+          {% endif %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+          
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          
+          Updated on {{ site.time | date: "%-d %b %Y" }}
+         
+        </ul>
+      </div>
+
+      
+    </div>
+
+  </div>
+
+</footer>
