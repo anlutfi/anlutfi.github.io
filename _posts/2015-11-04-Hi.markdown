@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Hi!"
-date:   2015-11-04 16:44:09 -0200
-categories: [jekyll, update]
----
-
-I am yet to finish tweaking jekyll and, since I not a fan of "Under Construction" walls, this empty post is here to greet you. Welcome! Don't mind the older posts, they are all here for testing
