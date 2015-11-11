@@ -39,7 +39,7 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
 <!--<table style= cellpadding="0" cellspacing="20" border="0">
       <tr>
         <td width="50%" valign="top">-->
-          <h1>Current Employment</h1>
+          <h1><a href="currentEmployment.html">Current Employment</a></h1>
           {% for post in site.categories.current %}
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -47,7 +47,7 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
-          <h1>Previous Employment</h1>
+          <h1><a href="previousEmployment.html">Previous Employment</a></h1>
           {% for post in site.categories.previous %}
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -56,7 +56,7 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
           {% endfor %}
           <hr>
           
-          <h1>Documents and Publications</h1>
+          <h1><a href="docPublish.html">Documents and Publications</a></h1>
                     
           {% for post in site.categories.document %}
               <h2>
@@ -69,12 +69,12 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
           <hr>
           {% for post in site.categories.courses %}
               <h1>
-              {{ post.title }}
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h1>
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
-          <h1>Programming Portfolio</h1>
+          <h1><a href="portfolio.html">Programming Portfolio</a></h1>
           These are programs that I either coded for work, fun or both. Anything done under contract is here after owner's consent. <br><br>
           {% for post in site.categories.portfolio %}
               <h2>
