@@ -10,7 +10,7 @@ title: Antonio Nascimento Lutfi
 email: antonio.lutfi@gmail.com
 description: Antonio Lutfi's online resume and portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.antoniolutfi.com.br" # the base hostname & protocol for your site
+url: "http://antoniolutfi.com.br" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  anlutfi
 blog: blog.antoniolutfi.com.br

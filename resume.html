@@ -35,28 +35,28 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
 <!--<table style= cellpadding="0" cellspacing="20" border="0">
       <tr>
         <td width="50%" valign="top">-->
-          <h2><a href="currentEmployment.html">Current Employment</a></h2>
+          <h2><a href="http://antoniolutfi.com.br/currentEmployment.html">Current Employment</a></h2>
           {% for post in site.categories.current %}
               <h3>
-              <a style="font-size:20px" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a style="font-size:20px" class="post-link" href="http://antoniolutfi.com.br{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h3>
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
-          <h2><a href="previousEmployment.html">Previous Employment</a></h2>
+          <h2><a href="http://antoniolutfi.com.br/previousEmployment.html">Previous Employment</a></h2>
           {% for post in site.categories.previous %}
               <h3>
-              <a style="font-size:20px" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a style="font-size:20px" class="post-link" href="http://antoniolutfi.com.br{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h3>
           {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           
-          <h2><a href="docPublish.html">Documents and Publications</a></h2>
+          <h2><a href="http://antoniolutfi.com.br/docPublish.html">Documents and Publications</a></h2>
                     
           {% for post in site.categories.thesis %}
               <h3>
-              <a style="font-size:20px" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a style="font-size:20px" class="post-link" href="http://antoniolutfi.com.br{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h3>
           {{ post.excerpt }}<br>
           {% endfor %}
