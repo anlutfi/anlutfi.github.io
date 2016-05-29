@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://antoniolutfi.com.br" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  anlutfi
-blog: blog.antoniolutfi.com.br
+#blog: blog.antoniolutfi.com.br
 
 markdown: redcarpet
 excerpt_separator: <!--more-->
