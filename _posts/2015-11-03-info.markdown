@@ -26,7 +26,7 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
     <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |
     <span class="skill">Java</span> | <span class="skill">SQL</span>
     <br><b>Other tech skills:</b>
-    <span class="skill">Linux/UNIX</span> | <span class="skill">Unity3D</span> |
+    <span class="skill">Linux/UNIX</span> | <span class="skill">OpenCV</span> | <span class="skill">Unity3D</span> |
     <span class="skill">GIT</span>
     <br><b>Hobbies:</b> <span class="skill">Guitar</span> | <span class="skill">[Video] Games</span> | 
     <span class="skill">Cooking</span> | <span class="skill">Writing</span> | 
