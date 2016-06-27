@@ -11,7 +11,7 @@ I am a Programmer and Prototyper at [OHMS](https://www.facebook.com/ourhomemaker
 
 I am currently investigating ways to improve on the [FabScan](https://hci.rwth-aachen.de/fabscan){:target="_blank"} 3D Scanner so it can run with multiple cameras and multiple laserbeams and calibrates itself with a fiducial marker, giving the user the possibility to adjust the layout according to the scanned object. The code is in <span class="skill">Python</span>.
 
-I am also involved in the early development of an art instalation for a museum.
+I am also involved in the development of an art instalation for a museum.
 
 Both these projects use <span class="skill">OpenCV</span>'s resources.
 <!--more-->
