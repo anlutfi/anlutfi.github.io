@@ -11,4 +11,4 @@ excerpt_separator: <!--more-->
 
 I was also the sole programmer responsible for coding two projects for <a target="_blank" href="http://redeglobo.globo.com/">Rede Globo</a>, the largest brazilian TV network.  
 The first one was [MarkerFinder]({% post_url 2015-11-03-MarkerFinder %}), which aimed to make the process of mapping fiducial markers on a studio's ceiling automatic. This map of markers is used to calculate a camera's position in the studio, making it possible to superimpose graphical effects with precision. It's coded in <span class="skill">C++</span> using [OpenCV](http://opencv.org/){:target="_blank"}.  
-The second deals with loading video frames to GPU, for faster image processing. It was written in <span class="skill">C<!--more-->
+The second deals with loading video frames to GPU, for faster image processing. It was written in <span class="skill">C</span>.<!--more-->

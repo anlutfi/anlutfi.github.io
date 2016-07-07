@@ -5,7 +5,7 @@ layout: default
 <h1>Resume and Portfolio</h1>
 
 {% for post in site.categories.info %}
-{{ post.content }}
+{{ post.excerpt }}
 {% endfor %}
 
 <br>
@@ -18,7 +18,7 @@ layout: default
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
-          {{ post.content }}<br>
+          {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           <h1><a href="previousEmployment.html">Previous Employment</a></h1>
@@ -26,7 +26,7 @@ layout: default
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
-          {{ post.content }}<br>
+          {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           
@@ -36,7 +36,7 @@ layout: default
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
-          {{ post.content }}<br>
+          {{ post.excerpt }}<br>
           {% endfor %}
         <!--</td>
         <td width="50%" valign="top">-->
@@ -45,7 +45,7 @@ layout: default
               <h1>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h1>
-          {{ post.content }}<br>
+          {{ post.excerpt }}<br>
           {% endfor %}
           <hr>
           <h1><a href="portfolio.html">Programming Portfolio</a></h1>
@@ -54,7 +54,7 @@ layout: default
               <h2>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
-          {{ post.content }}<br>
+          {{ post.excerpt }}<br>
           {% endfor %}
         <!--</td>
         
