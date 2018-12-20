@@ -11,7 +11,7 @@ I was a Programmer and Prototyper at [OHMS](https://www.facebook.com/ourhomemake
 
 I investigated ways to improve on the [FabScan](https://hci.rwth-aachen.de/fabscan){:target="_blank"} 3D Scanner so it could run with multiple cameras, multiple laserbeams and auto-calibration with fiducial markers, giving the user the possibility to adjust the layout according to the shape of the scanned object. The code is in <span class="skill">Python</span>.
 
-I was also the developer and main creator of the [Invisible Wall]({% post_url 2016-07-07-InvisibleWall %}){:target="_blank"}, an interactive art instalation for an Arts and Technology Festival by [Incubadora de Artistas](http://www.incubadoradeartistas.com.br/), coded in <span class="skill">C</span>/<span class="skill">C++</span>.
+I was also the developer and main creator of the [Invisible Wall]({% post_url 2016-07-07-InvisibleWall %}){:target="_blank"}, an interactive art instalation for a 2016 Arts and Technology Festival by [Incubadora de Artistas](http://www.incubadoradeartistas.com.br/), coded in <span class="skill">C</span>/<span class="skill">C++</span>.
 
 Both these projects use <span class="skill">OpenCV</span>'s resources.
 <!--more-->
