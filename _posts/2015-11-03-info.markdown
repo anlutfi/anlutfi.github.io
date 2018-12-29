@@ -24,7 +24,7 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
     <span class="skill">C</span> | <span class="skill">C++</span> |
     <span class="skill">C#</span> | <span class="skill">Python</span> |
     <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |
-    <span class="skill">Java</span> | <span class="skill">SQL</span>
+    <span class="skill">SQL</span>
     <br><b>MakerSpace/Prototyping Skills:</b>
     <span class="skill">Arduino/RaspberryPi</span> | <span class="skill">Electronic Soldering</span> |
     <span class="skill">Basic Woodwork</span>
@@ -34,5 +34,5 @@ Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
     <br><b>Hobbies:</b> <span class="skill">Guitar</span> | <span class="skill">[Video] Games</span> | 
     <span class="skill">Cooking</span> | <span class="skill">Writing</span> | 
     <span class="skill">Reading</span> | <span class="skill">Movies/Series/TV</span> | 
-    <span class="skill">Exercising</span> | <span class="skill">Traveling</span> | <span class="skill">DSLR Photography</span>
+    <span class="skill">Exercising</span> | <span class="skill">Travelling</span> | <span class="skill">DSLR Photography</span>
 </p>
