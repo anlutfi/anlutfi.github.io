@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Down Payment Optimizer"
+date:   2015-11-03 16:47:57 -0200
+categories: [portfolio]
+permalink: DownPayment
+
+---
+Inspired by the raging bull that was driving the real estate prices in Rio de Janeiro to the sky between 2011-13, this <span class="skill">Python</span> script calculates the optimal down payment on a house.  
+The user inputs the value of the house; how much money is set aside; the expected interest on such money; monthly disposable income; the annual interest to be paid to the bank and the number of payments.  
+The script then gives the down payment value that optimizes either total amount of money after all is paid or the average monthly financial impact.

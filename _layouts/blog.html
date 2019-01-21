@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ page.content }}</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <div class="inner" style="padding-top: 0px;">
+    
+    
+    
+    
+    {% for post in paginator.posts %}
+    
+    {% if post.image %}
+    </div>
+    <span class="image fit" style="margin-bottom: 0px;margin-top: 0px;"><a href="{{ post.url | relative_url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt=""></a></span>
+    <div style="padding-top: 3vh;margin-left: 3vw; margin-right: 3vw;">
+    {% endif %}
+    
+    
+    <div class="row 50%">
+        <p align="justify" style="margin-bottom: 1em;">
+        
+        {% if post.images %}
+        {% assign image = post.images[0] %}
+            <span class="image left">
+            <img src="{{ site.baseurl }}/{{ image }}" alt="">
+            </span>
+        {% endif %}
+        
+        <a href="{{ post.url | relative_url }}" style="border-bottom: none"><span style="font-size: 1.75em; color: #fff; font-weight: 600;">{{ post.title }} - {{ post.date | date_to_string }}</span></a><br>
+        {% if post.excerpt_separator %}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+        {% else %}
+        {{ post.content | remove: '<p>' | remove: '</p>'}}
+        {% endif %}
+        </p>
+       
+            
+        
+    
+            
+        
+    </div>
+    {% if post.excerpt_separator %}
+    <div class="row">
+      <div class="2u 0u(small)">
+        &nbsp;
+      </div>
+      <div class="8u 12u(small)">
+        <a href="{{ post.url | relative_url }}" class="button small fit">read more</a>
+      </div>
+      <div class="2u 0u(small)">
+        &nbsp;
+      </div>
+    </div>
+    <br>
+  
+    {% endif %}
+
+ 
+    {% unless forloop.last == true %}
+    <br>
+    <br> 
+    {% endunless %}
+    {% endfor %}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    {% include pagination.html %}
+    
+    
+    {% include footer.html %}
+
+</body>
+
+</html>

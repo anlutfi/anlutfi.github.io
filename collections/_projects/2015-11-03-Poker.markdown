@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Poker Console"
+date:   2015-11-03 16:47:58 -0200
+categories: [portfolio]
+permalink: Poker
+image: assets/images/content/mainPoker.jpg
+thumb: assets/images/content/mainPoker_ogthumb.jpg
+
+---
+Coded in <span class="skill">Python</span>, it calculates the odds of a Texas Hold'em hand being the highest in a Poker game. It considers the number of total hands dealt, the number of players betting, and the current state of the common cards, as well as the hand itself. Contrary to more common "calculators", this one computes the odds of a hand without knowing the opponents'.  
+[Source (Python)](https://github.com/anlutfi/PokerConsole){:target="_blank"}

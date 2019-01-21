@@ -1,0 +1,54 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header" class="alt" style="opacity: 0.88;">
+	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<nav>
+	<ul class="links">
+    <div class="row 0%" style="position: absolute; left:50%; transform: translate(-50%, 0%);">
+      <div class="4u">
+	      <a href="mailto:{{ site.email }}" class="icon fa-envelope" target="_blank"></a>
+	    </div>
+	    
+	    <div class="4u">
+	      <a href="{{ site.github_url }}" class="icon fa-github" target="_blank"></a>
+	    </div>
+	    
+	    <div class="4u">
+	      <a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"></a>
+	    </div>
+	  </div>
+	</ul>
+	</nav>
+	<nav>
+		<a href="#menu"></a>
+	</nav>
+	
+
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        <li><a href="{{ "" | absolute_url }}/">Home</a></li>
+        {% assign pagenames = "ProgrammingPortfolio, Resume, DocumentsandPublications"
+         | split: ", "
+      %}
+      {% for pagename in pagenames %}
+      {% assign pagep = site.pages | where: "permalink", pagename | first %}
+     
+		{% endfor %}
+		{% assign pagenames = "ProgrammingPortfolio, Resume, DocumentsandPublications"
+         | split: ", "
+      %}
+      {% for pagename in pagenames %}
+      {% assign pagep = site.pages | where: "permalink", pagename | first %}
+		        <li><a href="{{ pagep.url | absolute_url }}">{{ pagep.title }}</a></li>
+		{% endfor %}
+		      <li><a href="{{ site.baseurl }}/blog">Photography & Blog</a></li>
+	</ul>
+	
+</nav>
+
+

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Stock Price Variaton SVM Classifier"
+date:   2015-11-03 16:48:04 -0200
+categories: [document]
+permalink: stockSVM
+---
+<b>December 2012</b>  
+Authors: Antonio Lutfi, Andre Novaes  
+Originally titled <i>"Classificador de variações de preço para ações na bolsa"</i>, describes the results of an experiment for my Machine Learning class. We used a Support Vector Machine (SVM) to decide how a future stock price would behave relative to minimum and maximum thresholds.  
+[Full text(Portuguese)](https://www.dropbox.com/s/722qck9a3pxy6rq/stockprice%20variation%20classifier.pdf?dl=0){:target="_blank"}

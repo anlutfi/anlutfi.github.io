@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ page.content }}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <section id="one">
+        {% include tiles.html %}
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                {% assign posts = '' | split: '' %}
+                {% for collection in site.collections %}
+                    {% assign posts = posts | concat: site[collection.label] %}
+                {% endfor %}
+                {% for post in posts %}
+                {% endfor %}
+                {% assign posts = posts | sort: 'date' | reverse %}
+                
+                {% for post in posts%}
+                {% if site.featured contains post.permalink %}
+                <header class="major">
+                    <h2><a href="{{ site.baseurl}}/{{ post.permalink }}">{{ post.title }}</a></h2>
+                </header>
+                {% if post.image %}
+                <span class="image fit">
+                    <a href="{{ site.baseurl }}/{{ post.permalink }}">
+                        <img src="{{ site.baseurl }}/{{ post.image }}" alt="" />
+                    </a>
+                </span>
+                {% endif %}
+                <p>{{ post.excerpt }}</p>
+                <ul class="actions">
+                    
+                        <div class="row 25%">
+                        <div class="6u 12u(small)">
+                        <a href="{{ site.baseurl}}/{{ post.permalink }}" class="button small fit">
+                            read more
+                        </a>
+                        </div>
+                        <div class="6u 12u(small)">                              
+                        {% if post.categories contains 'document' %}
+                        <a href="{{ site.baseurl}}/DocumentsandPublications" class="button special small fit">
+                            Go to Documents, Publications and Courses
+                        </a>
+                        {% elsif post.categories contains 'education' or post.categories contains 'employment' %}
+                        <a href="{{ site.baseurl}}/Resume" class="button special small fit">
+                            Go to Resumé & Skills
+                        </a>
+                        {% elsif post.categories contains 'portfolio' %}
+                        <a href="{{ site.baseurl}}/ProgrammingPortfolio" class="button special small fit">
+                            Go to Programming Portfolio
+                        </a>
+                        {% elsif post.categories contains 'photography' or post.categories contains 'blog' %}
+                        <a href="{{ site.baseurl}}/blog" class="button special small fit">
+                            Go to Photography & Blog
+                        </a>
+                        {% endif %}
+                        </div>
+                        
+                        </div>
+                    
+                </ul>
+                <br><br>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

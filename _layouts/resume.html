@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+{% assign posts = '' | split: '' %}
+{% for collection in site.collections %}
+    {% unless collection.label == 'posts' %}
+        {% assign posts = posts | concat: site[collection.label] %}
+    {% endunless %}
+{% endfor %}
+{% for post in posts %}
+{% endfor %}
+{% assign posts = posts | sort: 'date' | reverse %}
+
+<section id="one">
+    <div class="inner">
+    <div class="row">
+    <div class="9u">
+    <header class="major">
+        <h1>{{ page.title }}</h1>
+        
+    </header>
+    </div>
+    <div class="3u">
+        <a href="{{ site.baseurl }}/ResumePdf" class="button special small fit">PDF version</a>
+    </div>
+    </div>
+    <div class="content">
+        <p>
+           {% for post in posts %}
+           {% if post.categories contains 'info' %}
+               {{ post.content }}
+           {% endif %}
+           {% endfor %}
+        </p>
+    </div>
+    <br><br>
+
+        
+        <h1>Latest Employment</h1>
+        
+        
+        {% for post in posts %}
+        {% if post.categories contains 'latest' %}
+            <header class="major">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            </header>
+                {{ post.content }}
+            
+        {% endif %}
+        {% endfor %}
+        <br>       
+        <h1>Previous Employment</h1>
+        
+        {% for post in posts %}
+        {% if post.categories contains 'previous' %}
+            <header class="major">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            </header>
+            <p align='justify'>
+                {{ post.content }}
+            </p>
+            <br>
+        {% endif%}
+        {% endfor %}
+        
+    </div>
+</section>
+    
+    
+{% include footer.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+{% if paginator.total_pages > 1 %}
+  
+<div class="paginationparent">
+  <div class="row 50%">
+    <div class="4u pagination prev">
+    {% if paginator.page == 1 %}
+      <span class="icon fa-angle-left"></span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="icon fa-angle-double-left"></span>
+      &nbsp;&nbsp;&nbsp;
+    {% else %}
+      <a class="icon fa-angle-left" href="{{ paginator.previous_page_path | relative_url }}">
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="icon fa-angle-double-left" href="{{ site.paginate_path | relative_url | replace: '/page:num/', '' }}">
+      </a>
+      &nbsp;&nbsp;&nbsp;
+    {% endif %}
+    </div>
+    
+    
+    <div class="4u row 0%">
+      <div class="5u row 0% pagination">
+      {% assign pages2display = paginator.total_pages | plus: 1 | divided_by: 2 | at_most: site.pagesbeforeallposts %}
+      
+      {% assign begin = paginator.page | minus: pages2display %}
+      {% if begin < 1 %}
+      {% assign begin = 1 %}
+      {% endif %}
+      
+      {% assign end = paginator.page | minus: 1 %}
+      {% if end < 1 %}
+      {% assign end = 1 %}
+      {% endif %}
+      
+      {% if paginator.page == 1 %}
+        &nbsp;
+      {% else %}
+      {% assign denominator = end | minus: begin | plus: 1 %}
+      {% assign sizeu = 12 | divided_by: denominator %}
+      {% for pagenum in (begin..end) %}        
+        <div class=" {{ sizeu }}u pagination">
+        {% if pagenum == 1 %}
+          <a style="border-bottom: none" href="{{ site.paginate_path | relative_url | replace: '/page:num/', '' }}">
+        {% else %}
+          <a style="border-bottom: none" href="{{ site.paginate_path | relative_url | replace: ':num', pagenum }}">
+        {% endif %}
+            <span>{{ pagenum }}</span>
+          </a>
+        </div>
+      {% endfor %}
+      {% endif %}
+      </div>
+      
+      
+      
+      
+      <div class="2u pagination">
+      <a class="icon fa-bars" href="{{ site.baseurl }}/allposts">
+      </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      <div class="5u row 0% pagination">
+      {% assign begin = paginator.page | plus: 1 %}
+      {% if begin > paginator.total_pages %}
+      {% assign begin = paginator.total_pages %}
+      {% endif %}
+      
+      {% assign end = paginator.page | plus: pages2display %}
+      {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+      {% endif %}
+      
+      {% if paginator.page == paginator.total_pages %}
+        &nbsp;
+      {% else %}
+      {% assign denominator = end | minus: begin | plus: 1 %}
+      {% assign sizeu = 12 | divided_by: denominator %}
+      {% for pagenum in (begin..end) %}
+        <div class="{{ sizeu }}u pagination">
+        <a style="border-bottom: none" href="{{ site.paginate_path | relative_url | replace: ':num', pagenum }}">
+          <span>{{ pagenum }}</span>
+        </a>
+        </div>
+      {% endfor %}
+      {% endif %}
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="4u pagination next">
+    {% if paginator.page == paginator.total_pages %}
+      &nbsp;&nbsp;&nbsp;   
+      <span class="icon fa-angle-double-right"></span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="icon fa-angle-right"></span>
+    {% else %}
+      &nbsp;&nbsp;&nbsp;
+      <a class="icon fa-angle-double-right" href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}">
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="icon fa-angle-right" href="{{ paginator.next_page_path | relative_url }}">
+      </a>
+    {% endif %}
+    </div>
+      
+        
+        
+        
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="inner" style="margin-left:3em; margin-right:3em; margin-top:5em">
+
+{% assign posts = '' | split: '' %}
+{% for collection in site.collections %}
+    {% unless collection.label == 'posts' %}
+        {% assign posts = posts | concat: site[collection.label] %}
+    {% endunless %}
+{% endfor %}
+{% for post in posts %}
+{% endfor %}
+{% assign posts = posts | sort: 'date' | reverse %}
+
+<section id="one">
+    <div class="inner">
+        <h1 style="margin-bottom:0.1em">Antonio Nascimento Lutfi</h1>
+        <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a> | 
+        {% assign str = site.github_url | split: '://' %}
+        <a href="{{ site.github_url }}" target="_blank">{{ str[1] }}</a> | 
+        {% assign str = site.linkedin_url | split: '://' %}
+        <a href="{{ site.linkedin_url }}" target="_blank">{{ str[1] }}</a>
+        
+        
+    <div class="content">
+        <p>
+           {% for post in posts %}
+           {% if post.categories contains 'info' %}
+               {{ post.content }}
+           {% endif %}
+           {% endfor %}
+        </p>
+    </div>
+    <br>
+
+        
+        <h2>Latest Employment</h2>
+        
+        
+        {% for post in posts %}
+        {% if post.categories contains 'latest' %}
+            <header class="major">
+                <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            </header>
+                {{ post.content }}
+            
+        {% endif %}
+        {% endfor %}
+        <br>       
+        <h2>Previous Employment</h2>
+        
+        {% for post in posts %}
+        {% if post.categories contains 'previous' %}
+            <header class="major">
+                <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            </header>
+            <p align='justify'>
+                {{ post.content }}
+            </p>
+            <br>
+        {% endif%}
+        {% endfor %}
+        
+        <br>       
+        **For a more detailed description of documents, publications, and projects, visit <a href="http://www.antoniolutfi.com.br">antoniolutfi.com.br</a>**
+        <h2 style="margin-bottom:0.5em">Documents and Publications</h2>
+        
+        {% for post in posts %}
+        {% if post.categories contains 'document' %}
+        {% unless post.categories contains 'courses' %}
+            <h4 style="text-decoration: underline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+        {% endunless %}
+        {% endif%}
+        {% endfor %}
+        <br>
+        <h2 style="margin-bottom:0.5em">Programming Portfolio</h2>
+        
+        {% for post in posts %}
+        {% if post.categories contains 'portfolio' %}
+        {% unless post.categories contains 'courses' %}
+            <h4 style="text-decoration: underline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+            {{ post.excerpt }}
+        {% endunless %}
+        {% endif%}
+        {% endfor %}
+        
+    </div>
+</section>
+    
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+# site settings
+title: Antonio Lutfi
+subtitle: 
+email: antonio.lutfi@gmail.com
+description: A place to put all the stuff I do
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Antonio Lutfi
+street_address: 
+city: 
+state:
+zip_code:
+country: 
+phone: 
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 15
+
+featured: ["InvisibleWall", "thesisMSC", "RegionDetection",  "MarkerFinder"]
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+pagesbeforeallposts: 3
+
+defaults:
+   scope:
+      path: "_posts/photography"
+#collections
+collections_dir: collections
+
+collections:
+    education:
+        output: true
+    employment:
+        output: true
+    projects:
+        output: true
+    
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/anlutfi
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/antonio-lutfi-a0540455
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
