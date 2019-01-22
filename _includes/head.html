@@ -6,16 +6,31 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
-	<meta property="og:title" content="{{page.title}}" />
-	<meta property="og:url" content="{{page.url}}" />
+	
+	<meta name="description" {% if page.description %} content="{{ page.description }}" {% else %} content="{{ site.description }}"{% endif %} />
+	
+	<meta name="author" content="{{ site.author }}" />
+	<meta name="copyright" content="{{ site.author }}" />	
+	
+	{% if page.title == "All Posts" %}
+	<meta name="robots" content="noindex"/>
+	<meta name="robots" content="nofollow"/>
+	
+	{% endif %}
+	
+	
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:url" content="{{ page.url }}" />
 	<meta property="og:type" content="website" />
-	<meta property="og:description" content="{{page.description}}" />
+	<meta property="og:description" content="{{ page.description }}" />
 	{% if page.thumb %}
-	<meta property="og:image" content="{{page.thumb}}" />
+	<meta property="og:image" content="{{ page.thumb }}" />
 	{% elsif page.imagesmall %}
-	<meta property="og:image" content="{{page.imagesmall}}" />
+	<meta property="og:image" content="{{ page.imagesmall }}" />
 	{% elsif page.image %}
-	<meta property="og:image" content="{{page.image}}" />
+	<meta property="og:image" content="{{ page.image }}" />
+	{% else %}
+	<meta property="og:image" content="{{ site.baseurl }}/wiremess.jpg" />
 	
 	{% endif %}
 	<meta property="og:site_name" content="{{site.title}}" />
