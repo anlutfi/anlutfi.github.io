@@ -1,13 +1,14 @@
 ---
 layout: photopost
-title:  "PLACEHOLDER POST"
+title:  "Lake McDonald and Dubrovnik"
 date:   2015-11-03 16:47:57 -0200
 categories: [photography]
 permalink: photo3
 featured: true
 excerpt_separator: <!--more-->
 image: assets/images/content/InvisibleWall/33.jpg
-images: [assets/images/InvisibleWall/2.jpg, assets/images/InvisibleWall/3.jpg, assets/images/InvisibleWall/4.jpg, assets/images/InvisibleWall/6.jpg]
+images: [assets/images/content/dubrovnikrainbow.jpg]
 ---
-There is nothing here yet, coming soon. This picture is on lake McDonald, Glacier National Park, MT.
+THIS IS A PLACEHOLDER POST.
+There is nothing here yet, coming soon. The big picture is on lake McDonald, Glacier National Park, MT. The small one is a trail in Dubrovnik, Croatia.
 <!--more-->
