@@ -5,7 +5,6 @@ date:   2015-11-03 16:48:05 -0200
 categories: [info, education]
 permalink: info
 ---
-Brazilian citizen, born Oct 19<sup>th</sup>, 1985.
 
 <p class="text">
 I am a generalist programmer with broad interests and a special passion for art and entertainment. I've been more recently involved in hardware prototyping, makerspaces and CG/CV. My current goal is to work on multidisciplinary tech research, be it in Academia or private sector.
