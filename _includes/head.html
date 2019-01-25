@@ -20,7 +20,11 @@
 	
 	
 	<meta property="og:title" content="{{ page.title }}" />
+	{% if page.title == "Home" %}
+	<meta property="og:url" content="http://antoniolutfi.com.br" />
+	{% else %}	
 	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	{% endif %}
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="{{ page.description }}" />
 	{% if page.thumb %}
