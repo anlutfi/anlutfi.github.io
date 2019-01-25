@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Graduate Courses"
-description: List of graduate courses took
+description: List of graduate courses I took
 date:   2018-11-03 16:48:03 -0200
 categories: [courses, graduate, document, education]
 permalink: courses
