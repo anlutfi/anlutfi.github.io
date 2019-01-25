@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Stock Price Variaton SVM Classifier"
+description: Support Vector Machine for predicting a stock's price variation direction.
 date:   2015-11-03 16:48:04 -0200
 categories: [document]
 permalink: stockSVM

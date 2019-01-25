@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Poker Console"
+description: Software that calculates the odds of a poker hand to be the best in a game.
 date:   2015-11-03 16:47:58 -0200
 categories: [portfolio]
 permalink: Poker

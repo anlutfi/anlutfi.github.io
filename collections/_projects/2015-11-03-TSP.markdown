@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Travelling Salesman Problem, Heuristics Comparison"
+description: Benchmark of different known upper-bound heuristics for the Travelling Salesman Problem
 date:   2015-11-03 16:48:01 -0200
 categories: [portfolio]
 permalink: TSP

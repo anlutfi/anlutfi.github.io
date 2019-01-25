@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Region Detection in Images"
+description: R script that divides an images within regions using Random Walks
 date:   2015-11-03 16:47:59 -0200
 categories: [portfolio, document]
 permalink: RegionDetection

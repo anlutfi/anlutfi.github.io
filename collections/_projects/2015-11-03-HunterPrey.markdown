@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hunter Prey"
+description: Unity 3D project exploring game AI
 date:   2015-11-03 16:47:56 -0200
 categories: [portfolio]
 permalink: HunterPrey

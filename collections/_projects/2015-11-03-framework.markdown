@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Framework for TV Game Shows with Augmented Reality and Second Screen"
+description: My MSc thesis, it proposes a framework for the development of interactive TV game shows using Augmented Reality in TV studios with viewers' participation through Second Screen.
 date:   2015-11-03 16:48:06 -0200
 categories: [document, thesis]
 permalink: thesisMSC

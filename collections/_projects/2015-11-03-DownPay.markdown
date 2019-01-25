@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Down Payment Optimizer"
+description: Script to calculate optimal down-payment on a financed house, based on interest rate, disposable income and savings.
 date:   2015-11-03 16:47:57 -0200
 categories: [portfolio]
 permalink: DownPayment

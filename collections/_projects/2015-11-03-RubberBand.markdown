@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "RubberBand"
+description: Attempt to develop a new upper-bound heuristics for the Travelling Salesman Problem
 date:   2015-11-03 16:48:00 -0200
 categories: [portfolio]
 permalink: RubberBand

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Basic Info"
+description: Intro, technical skills and personal details
 date:   2015-11-03 16:48:05 -0200
 categories: [info, education]
 permalink: info

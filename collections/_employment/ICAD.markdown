@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Programmer & Researcher @ ICAD/VisionLab"
+description: Employment at a Gaming and Computer Vision lab. Dealt with experimental game development, Fiducial Markers mapping for a tv studio for Rede Globo and my MSc thesis.
 date:   2015-11-03 16:48:09 -0200
 categories: [previous, employment]
 permalink: employerICAD

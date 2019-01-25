@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Intern & Trainee @ StoneAge Tech"
+description: Employment dealing with deployment of a Marketing Segmentation tool. First experience dealing directly with clients and managing a POC on my on.
 date:   2015-11-03 16:48:07 -0200
 categories: [previous, employment]
 permalink: employerSTA

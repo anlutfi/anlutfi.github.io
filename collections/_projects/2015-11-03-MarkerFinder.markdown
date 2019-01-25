@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MarkerFinder"
+description: Software that recognizes a collection of fiducial markers from a studio's ceiling laser-captured point-cloud. It the generates a map that aids another software to superimpose special effects based on a camera's position.
 date:   2015-11-03 16:48:02 -0200
 categories: [portfolio, contract]
 permalink: MarkerFinder

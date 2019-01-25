@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Database Analyst @ ICA - Applied Computational Intelligence Lab"
+description: Employment at a Computational Intelligence Lab, in a public budget management project using AI. I was responsible for building the DB that provided data for the BI team.
 date:   2015-11-03 16:48:08 -0200
 categories: [previous, employment]
 permalink: employerICA
