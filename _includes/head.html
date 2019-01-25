@@ -20,7 +20,7 @@
 	
 	
 	<meta property="og:title" content="{{ page.title }}" />
-	<meta property="og:url" content="{{ page.url }}" />
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="{{ page.description }}" />
 	{% if page.thumb %}
