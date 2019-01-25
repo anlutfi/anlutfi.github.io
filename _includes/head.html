@@ -24,11 +24,11 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="{{ page.description }}" />
 	{% if page.thumb %}
-	<meta property="og:image" content="{{ page.thumb }}" />
+	<meta property="og:image" content="{{ page.thumb | absolute_url }}" />
 	{% elsif page.imagesmall %}
-	<meta property="og:image" content="{{ page.imagesmall }}" />
+	<meta property="og:image" content="{{ page.imagesmall | absolute_url }}" />
 	{% elsif page.image %}
-	<meta property="og:image" content="{{ page.image }}" />
+	<meta property="og:image" content="{{ page.image | absolute_url }}" />
 	{% else %}
 	<meta property="og:image" content="{{ site.baseurl }}/wiremess.jpg" />
 	
