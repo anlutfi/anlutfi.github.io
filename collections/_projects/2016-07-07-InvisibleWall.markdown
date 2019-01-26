@@ -3,7 +3,7 @@ layout: post
 title:  Invisible Wall
 description: Computer Vision art installation. A person stands in a dark room and the wall in front of her becomes invisible.
 date:   2016-07-07 16:48:09 -0200
-categories: [portfolio]
+categories: [portfolio, shareable]
 permalink: InvisibleWall
 excerpt_separator: <!--more-->
 image: assets/images/content/InvisibleWall/main5.jpg
