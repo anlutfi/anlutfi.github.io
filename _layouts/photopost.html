@@ -18,12 +18,13 @@
 
 <!-- One -->
 <section id="one">
-	<div class="inner">
-		<header class="major">
+	<div class="inner" style="padding-bottom: 0.2em;">
+		<header class="major" style="margin-bottom: 1em;">
 			<h1>{{ page.title }}</h1>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		
+    </div>
+		{% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />{% endif %}
+	<div class="inner" style="padding-top: 1em;">	
 		<div class="row">
 		<div class="6u">
 		    {{ page.date | date_to_string }}
