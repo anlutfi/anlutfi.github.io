@@ -24,7 +24,17 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		
-		<p>{{ page.date | date_to_string }}</p>
+		<div class="row">
+		<div class="6u">
+		    {{ page.date | date_to_string }}
+		</div>
+		<div class="6u" style="text-align:right">
+		    {% if page.categories contains "shareable" %}
+                {% include social.html %}
+            {% endif %} 
+        </div>      
+        </div>
+	  
 	  {{ content }}
 	  
 	</div>

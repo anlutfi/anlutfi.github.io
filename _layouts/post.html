@@ -17,19 +17,22 @@
 <div id="main" class="alt">
 
 <!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
-	</div>
-</section>
+    <div class="inner">
+	    <header class="major">
+		    <h1>{{ page.title }}</h1>
+	    </header>
+			    
+	    {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+	    {{ content }}
+
+    {% if page.categories contains "shareable" %}
+        {% include social.html %}
+    {% endif %}
+</div>
 
 </div>
 
-    {% include footer.html %}
+    {% include simplefooter.html %}
 
 </body>
 

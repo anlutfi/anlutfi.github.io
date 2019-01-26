@@ -2,7 +2,7 @@
 layout: photopost
 title:  "Lake McDonald and Dubrovnik"
 date:   2015-11-03 16:47:57 -0200
-categories: [photography]
+categories: [photography, shareable]
 permalink: photo3
 featured: true
 excerpt_separator: <!--more-->
