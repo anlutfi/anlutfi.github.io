@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 image: 'assets/images/content/posts/photography/02022019-mauerpark/IMG_2030.jpg'
 images: ['assets/images/content/posts/photography/02022019-mauerpark/IMG_2100.jpg']
 ---
-This is one of the favorite pictures I took. A crowd cheering open-air karaoke singers at Mauer Park on a summer sunday afternoon. It's a very lucky angle, there are no distortions and everyone seems to be looking straight at the lens.<!--more-->
+This is one of the favorite pictures I took. A crowd cheering at open-air karaoke singers at Mauer Park on a summer sunday afternoon. It's a very lucky angle, there are no distortions and everyone seems to be looking straight at the lens.<!--more-->
 
 There are a lot of sub-pictures within this one. My favorites being this bald guy, the two women in love with the prognostic of beer, and the three ecstatic girls evidently loving the performance. I honestly don't remember what was playing.
 
