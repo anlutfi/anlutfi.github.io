@@ -20,7 +20,7 @@
 <section id="one">
 	<div class="inner" style="padding-bottom: 0.2em;">
 		<header class="major" style="margin-bottom: 1em;">
-			<h1>{{ page.title }}</h1>
+			<h1>{{ page.title }}{% if page.location %}&nbsp;@&nbsp;{{ page.location }}{% endif %}</h1>
 		</header>
     </div>
 		{% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />{% endif %}
