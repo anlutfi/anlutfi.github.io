@@ -1,0 +1,26 @@
+---
+layout: photopost
+title:  "Light as the object"
+date:   2019-02-01 23:59:59 -0600
+categories: [photography, shareable]
+excerpt_separator: <!--more-->
+image: assets/images/content/posts/photography/01022019-light/IMG_6093.jpg
+images: [assets/images/content/posts/photography/01022019-light/IMG_6737.jpg, assets/images/content/posts/photography/01022019-light/IMG_8486.jpg]
+---
+Light is, obviously, the only actual thing that makes a picture. Ironically, it is almost never the subject of one. It takes a background role in showing us the beauty of a model, the warmth of a sunset, the blue of the ocean, and many other cheesy clichés. These ones are different: they make you think of Light itself.
+<!--more-->
+The cover picture is a sunset -or the indication thereof- at the top of the Taipei 101 Tower in Taipei, Taiwan; one of my favorite cities.
+
+<span class="image fit" style="margin-bottom:0.8em; margin-top:4.5em">
+  <img src="{{ site.baseurl }}/assets/images/content/posts/photography/01022019-light/IMG_6737.jpg" alt="" />
+</span>
+This is a night at Hoi-An, a very special Vietnamese town. I met a lot of other people who traveled through Vietnam, and we all recommend it.
+
+<span class="image fit" style="margin-bottom:0.8em; margin-top:4.5em">
+  <img src="{{ site.baseurl }}/assets/images/content/posts/photography/01022019-light/IMG_8486.jpg" alt="" />
+</span>
+The last one is the morning light squeezing through the gaps in the curtains of a hotel room in Malaysia. I never discovered what outside objects were responsible for the colors, but they are fascinating. They are pretty close to being Cyan, Magenta, and Yellow: the three primary colors of the CMYK model. All others can be obtained by a mixture of these. Printers, for example, have only these three inks and black.
+
+Looking closely, it's possible to notice an arrow sticker on the ceiling, at the bottom part of the picture and a little to the right of the middle. It points towards Mecca, the sacred city of Islam, indicating to where muslims should face during prayer.
+
+
