@@ -251,7 +251,6 @@ DEPENDENCIES
   forty_jekyll_theme!
   github-pages
   jekyll (~> 3.3)
-  jekyll-feed
   jekyll-paginate
 
 BUNDLED WITH

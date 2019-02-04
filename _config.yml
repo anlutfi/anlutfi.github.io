@@ -11,7 +11,12 @@ city:
 state:
 zip_code:
 country: 
-phone: 
+phone:
+
+plugins:
+  - jekyll-feed
+  
+   
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 15
