@@ -36,7 +36,7 @@ And bellow is a potty-trained boy marching to the outhouse to resolve his busine
   <img src="{{ site.baseurl }}/assets/images/content/posts/photography/04022019-gobidesert/IMG_5486.jpg" alt="" />
 </span>
 
-From the next day onward, it's a drastic change of scenery. The snow completely disappears and the landscape aquires more of a stereotypical desert look. The accomodations also change: nomads in the Gobi desert live in tents called Gers. They are kept warm during the night by a hearth that's fed either by wood or manure. Since Gobi's bushes tend to burn quite quickly, the families that used manure were our favorites. The night sky was absolutely amazing, as it tends to be when the air is dry.
+From the second day onward, it's a drastic change of scenery. The snow completely disappears and the landscape aquires more of a stereotypical desert look. The accomodations also change: nomads in the Gobi desert live in tents called Gers. They are kept warm during the night by a hearth that's fed either by wood or manure. Since Gobi's bushes tend to burn quite quickly, the families that used manure were our favorites. The night sky was absolutely amazing, as it tends to be when the air is dry.
 <span class="image fit" style="margin-bottom:4.5em; margin-top:0.8em">
   <img src="{{ site.baseurl }}/assets/images/content/posts/photography/04022019-gobidesert/IMG_5586.jpg" alt="" />
 </span>
@@ -46,7 +46,7 @@ On one of the following days, our guide took us to see the sunset on the top of 
 <div style="height:20em; text-align:center; position:relative;padding-top:56.25%;margin-bottom:4.5em; margin-top:0.8em">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/B-udfiFZcko" frameborder="0" allowfullscreen></iframe>
 </div>
-Arriving there, however, was well worth the effort. Even tough the sunset was blocked by clouds, I was able to take this post's cover photo and this other one, with Björn sitting down, George with his camera, and our guide, Jaaga, on the left.
+Arriving there, however, was well worth the effort. Even though the sunset was blocked by clouds, I was able to take this post's cover photo and this other one, with Björn sitting down, George with his camera, and our guide, Jaaga, on the left.
 <span class="image fit" style="margin-bottom:4.5em; margin-top:0.8em">
   <img src="{{ site.baseurl }}/assets/images/content/posts/photography/04022019-gobidesert/IMG_5716.jpg" alt="" />
 </span>
