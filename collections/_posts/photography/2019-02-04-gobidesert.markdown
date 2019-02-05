@@ -41,7 +41,7 @@ From the next day onward, it's a drastic change of scenery. The snow completely 
   <img src="{{ site.baseurl }}/assets/images/content/posts/photography/04022019-gobidesert/IMG_5586.jpg" alt="" />
 </span>
 
-On one of the following days, our guide took us to see the sunset on the top os a sand dune. It was probably less than 100m high and, with a layman's arrogance, the whole party tought it would be easy. It took us about an hour to climb to top in what I believe it was the greatest physical feat I had ever done. The feeling of climbing a soft sand dune is better explained by the world's most beloved plumber: 
+On one of the following days, our guide took us to see the sunset on the top os a sand dune. It was probably less than 100m high and, with a layman's arrogance, the whole party tought it would be easy. It took us about an hour to climb to top in what I believe it was the greatest physical feat I had ever done. The feeling of climbing a soft sand dune is better demonstrated by the world's most beloved plumber: 
 
 <div style="height:20em; text-align:center; position:relative;padding-top:56.25%;margin-bottom:4.5em; margin-top:0.8em">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/B-udfiFZcko" frameborder="0" allowfullscreen></iframe>
