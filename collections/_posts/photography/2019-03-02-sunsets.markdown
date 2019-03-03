@@ -1,0 +1,26 @@
+---
+layout: photopost
+title:  "Sunsets"
+date:   2019-02-04 02:59:59 -0600
+categories: [photography, shareable]
+excerpt_separator: <!--more-->
+image: 'assets/images/content/posts/photography/02032019-sunsets/IMG_4220.jpg'
+images: ['assets/images/content/posts/photography/02032019-sunsets/IMG_7585.jpg', 'assets/images/content/posts/photography/02032019-sunsets/IMG_7639.jpg']
+---
+Trying to make the best of one big -if not the biggest- cliché, I chose three of my favorite sunsets.
+
+The cover is the beginning of an early autumn evening in Dubrovnik, Croatia. I got to the top of Srd Hill by the famous cable car. After spending a lot of time enjoying the view, I decided to hike down. <!--more--> Light was almost gone in the trail and, having no jacket and wearing flip-flops, I had to pick up the pace. This rainbow-colored composition struck me as I was nearly in the end of the way.
+
+
+
+<span class="image fit" style="margin-bottom:0.8em; margin-top:4.5em">
+  <img src="{{ site.baseurl }}/assets/images/content/posts/photography/02032019-sunsets/IMG_7639.jpg" alt="" />
+</span>
+
+This one is in Koh Phangan, an island off the east coast of Thailand, a very dear place to me. I was there during "Winter", when every day's weather seemed meticulously programmed. It rains from 16:00 to 17:00, then the skies clear and there is a pink sunset. These trees were by the side of a road on which I walked every day to go home.
+
+<span class="image fit" style="margin-bottom:0.8em; margin-top:4.5em">
+  <img src="{{ site.baseurl }}/assets/images/content/posts/photography/02032019-sunsets/IMG_7585.jpg" alt="" />
+</span>
+
+This is also in Thailand, near the town of Pai. Pai Canyon is a classic sunset watching spot.
