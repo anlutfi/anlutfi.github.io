@@ -9,6 +9,9 @@
       <span class="icon fa-angle-double-left"></span>
       &nbsp;&nbsp;&nbsp;
     {% else %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" style="border-bottom: none">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
       <a class="icon fa-angle-left" href="{{ paginator.previous_page_path | relative_url }}">
       </a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,6 +110,7 @@
       </a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a class="icon fa-angle-right" href="{{ paginator.next_page_path | relative_url }}">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
     {% endif %}
     </div>
