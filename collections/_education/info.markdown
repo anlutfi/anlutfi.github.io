@@ -22,7 +22,7 @@ I have experience in multiple areas, ranging from state budget to Computer Visio
     <br>
 
 <p class="text">
-    <b>Human Languages:</b> Native Portuguese | Fluent English (TOEFL IBT 115/120)
+    <b>Human Languages:</b> Native Portuguese | Fluent English (TOEFL IBT 114/120)
     
     <br><b>Computer Languages:</b>
     <span class="skill">C</span> | <span class="skill">C++</span> |
