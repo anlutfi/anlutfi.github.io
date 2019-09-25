@@ -46,7 +46,7 @@
             
             {% if post.excerpt_separator %}
              <p style="align: justify; margin-bottom: 2vh">
-             {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+             {{ post.excerpt | remove: '<p>' | replace: '</p>', '<br><br>' }}
                 </p>
                  <div class="row">
                     <div class="2u 0u(small)">
