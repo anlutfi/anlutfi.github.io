@@ -1,0 +1,19 @@
+---
+layout: post
+title: Chicken - a stabilizing video using gaze data
+description: A tool that uses compensatory eye movements from an eye-tracked individual to stabilize first-person view (FPV) video.
+date:   2019-10-14 16:48:09 -0200
+categories: [portfolio, shareable]
+permalink: chicken
+excerpt_separator: 
+image: 
+thumb:
+---
+Inspired by the virally famous [chicken-head video stabilization joke](https://www.youtube.com/watch?v=LEGZ7hGaMNI){:target="_blank"}, chicken is a video stabilization tool (currently under development) that uses the human eye compensatory movements to mitigate camera shaking. As of now, it requires that the original video has been shot using an eye-tracking device such as [pupil](https://pupil-labs.com/products/core/){:target="_blank"}.
+
+It works by segmenting a video into clusters, each corresponding to a interval of time in which the recorder was gazing at the same target. The stabilization occurs, cluster by cluster, by cropping the original frame in such a way that the gazes all align, according to a stabilization function.
+
+I am open to external help, specially in data gathering. If the idea appeals to you, please get in touch. Code is being written in <span class = "skill">C++</span>, with <span class = "skill">OpenCV</span> and a <span class = "skill">Python</span> interface.
+
+[Source (Python and C++)](https://github.com/anlutfi/chicken){:target="_blank"} (requires [OpenCV](http://opencv.org/){:target="_blank"} and [PyNpArr_2_CppCvMat](https://github.com/anlutfi/PyNpArr_2_CppCvMat){:target="_blank"})
+
