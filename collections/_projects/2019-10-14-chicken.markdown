@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chicken - a stabilizing video using gaze data
+title: Chicken - stabilizing video using gaze data
 description: A tool that uses compensatory eye movements from an eye-tracked individual to stabilize first-person view (FPV) video.
 date:   2019-10-14 16:48:09 -0200
 categories: [portfolio, shareable]
