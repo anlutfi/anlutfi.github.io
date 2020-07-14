@@ -3,7 +3,7 @@ layout: post
 title:  Programmer & Prototyper @ OHMS
 description: Employment at a prototyping lab/makerspace. I was involved with 3D scanning and printing, Arduino hardware prototyping for a hoistering 360 camera gig, Computer Vision art project, etc.
 date:   2016-05-29 16:48:09 -0200
-categories: [latest, employment]
+categories: [previous, employment]
 permalink: employerOHMS
 excerpt_separator: <!--more-->
 ---
