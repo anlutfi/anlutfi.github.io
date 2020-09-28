@@ -30,11 +30,17 @@ I have experience in multiple areas, ranging from state budget to Computer Visio
     <span class="skill">R</span> | <span class="skill">Delphi/Pascal</span> |
     <span class="skill">SQL</span>
     
+    <br><b>CV and ML:</b>
+    <span class="skill">PyTorch</span> | <span class="skill">TensorFlow</span> |
+    <span class="skill">Cuda</span> | <span class="skill">cuDNN</span> |
+    <span class="skill">OpenCV</span> | <span class="skill">Jupyter Notebooks</span>    
+    
+    
     <br><b>MakerSpace/Prototyping Skills:</b>
     <span class="skill">Arduino/RaspberryPi</span> | <span class="skill">Electronic Soldering</span> | <span class="skill">Basic Woodwork</span>
  
     <br><b>Other tech skills:</b>
-    <span class="skill">Linux/UNIX</span> | <span class="skill">OpenCV</span> | <span class="skill">Unity3D</span> |
+    <span class="skill">Linux/UNIX</span> | <span class="skill">Unity3D</span> |
     <span class="skill">GIT</span>
  
     <br><b>Hobbies:</b> <span class="skill">Guitar</span> | <span class="skill">[Video] Games</span> | 
