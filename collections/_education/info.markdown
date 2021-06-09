@@ -33,8 +33,14 @@ I have experience in multiple areas, ranging from state budget to Computer Visio
     <br><b>CV and ML:</b>
     <span class="skill">PyTorch</span> | <span class="skill">TensorFlow</span> |
     <span class="skill">Cuda</span> | <span class="skill">cuDNN</span> |
-    <span class="skill">OpenCV</span> | <span class="skill">Jupyter Notebooks</span>    
-    
+    <span class="skill">OpenCV</span> | <span class="skill">Spacy</span> |
+    <span class="skill">Tesseract</span> | <span class="skill">Jupyter Notebooks</span>
+
+    <br><b>AWS:</b>   
+    <span class="skill">ECR</span> | <span class="skill">ECS</span> |
+    <span class="skill">SQS</span> | <span class="skill">SNS</span> |
+    <span class="skill">Lambda</span> | <span class="skill">Transcribe</span> |
+    <span class="skill">MediaConvert</span> | <span class="skill">Rekognition</span>
     
     <br><b>MakerSpace/Prototyping Skills:</b>
     <span class="skill">Arduino/RaspberryPi</span> | <span class="skill">Electronic Soldering</span> | <span class="skill">Basic Woodwork</span>
