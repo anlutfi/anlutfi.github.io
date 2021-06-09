@@ -8,7 +8,7 @@ permalink: info
 ---
 
 <p class="text">
-I am a generalist programmer with broad interests and a special passion for visual art and entertainment. I am currently working with Computer Vision and Machine/Deep Learning. My current goal is to stay in this area, in a role where I am needed to do a lot of learning and research.
+I am a generalist programmer with broad interests and a special passion for visual art and entertainment. I am currently working with Computer Vision and Machine/Deep Learning. My goal is to stay in this area, in a role where I am needed to do a lot of learning and research.
 <br>
 I have experience in multiple fields, ranging from state budget to Computer Vision art installations. I love the enormous variety of problems that can be solved with Computer Science and relish new challenges and learning things from scratch.
 </p>
