@@ -14,7 +14,7 @@ At [EnVsion](https://www.envsion.io/){:target="_blank"}, we are developing a vid
 
 As a member of the founding team of this early stage company, apart from the following technical aspects of my role, I also get to witness and participate on company structuring and strategic activities.
 
-I write code to extract information from video with <span class="skill">Computer Vision</span>, <span class="skill">Deep Learning</span>, and <span class="skill">Natural Language Processing(NLP)</span>. Code is usually in <span class="skill">Python</span>. Computer Vision applications, that range from object/people detection to OCR, usually use <span class="skill">OpenCV</span>, <span class="skill">Tesseract</span>, <span class="skill">TensorFlow</span>, and <span class="skill">PyTorch</span>. For NLP tasks, it's common to use <span class="skill">Spacy</span>. Exeperiments frequently rely on <span class="skill">Jupyter Notebooks</span> and models, when possible, take advantage of GPU, using <span class="skill">CUDA</span>.
+I write code to extract information from video with <span class="skill">Computer Vision</span>, <span class="skill">Deep Learning</span>, and <span class="skill">Natural Language Processing(NLP)</span>. Code is usually in <span class="skill">Python</span>. Computer Vision applications, that range from object/people detection to OCR, usually use <span class="skill">OpenCV</span>, <span class="skill">Tesseract</span>, <span class="skill">TensorFlow</span>, and <span class="skill">PyTorch</span>. For NLP tasks, it's common to use <span class="skill">Spacy</span>. Exeperiments frequently rely on <span class="skill">Jupyter Notebooks</span>. Models, when possible, take advantage of GPU, using <span class="skill">CUDA</span>.
 
 On top of these ML activities, I also participate in the deployment of AI services using <span class="skill">AWS</span>'s tools that include:
 * <span class="skill">ECR</span> and <span class="skill">ECS</span>, for running <span class="skill">Docker</span> containers
@@ -28,7 +28,7 @@ Some examples of what I've done so far include:
 * Using and tweaking the implementation of <span class="skill">Deep SORT</span> for object tracking
 * Creating a simple and modular pipeline structure for plugging and unplugging deep learning functionalities
 * Creating a template class that allows an AI tool to listen to an <span class="skill">AWS</span> <span class="skill">SQS</span> queue for videos to be processed and its results to be posted where they need. Almost all of our AI services extend this class
-* Using <span class="skill">Aeneas</span> audio alignment library to realign manually edited portions of an auto generated transcript to the video's audio track
+* Using <span class="skill">Aeneas</span> audio alignment library to realign manually edited portions of an auto-generated transcript to the video's audio track
 * Segmenting videos in separate shots, using <span class="skill">TransNetv2</span>
 * Celebrity detection using <span class="skill">AWS</span>'s <span class="skill">Rekognition</span>
 * Extracting text from presentation/class videos with <span class="skill">Tesseract</span>
