@@ -2,7 +2,7 @@
 layout: post
 title:  "The Relationship between Augmented Reality and Advertising: How far can this relationship go?"
 description: A summary of my BSc thesis, it presents an analysis of the Augmented Reality applications in Advertising in 2010.
-date:   2015-11-03 17:48:05 -0200
+date:   2015-11-03 16:48:06 -0200
 categories: [document, article]
 permalink: thesisBSC_summary
 ---
