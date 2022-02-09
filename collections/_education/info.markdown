@@ -14,6 +14,9 @@ I have experience in multiple fields, ranging from state budget to Computer Visi
 </p>
 
 <p class="text">
+    <b>DSc Computational Sciences and Mathematics</b> at Universidade de São Paulo.
+    March 2026(expected).
+    <br>
     <b>MSc Informatics</b> at Pontifical Catholic University
     (Rio de Janeiro, Brazil). April 2015.
     <br>
