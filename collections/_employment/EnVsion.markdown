@@ -3,7 +3,7 @@ layout: post
 title:  Computer Vision Engineer @ EnVsion
 description: Employment at a Deep Video Intelligence company. I wrote software to extract information from video with Computer Vision and Deep Learning.
 date:   2020-06-01 16:48:09 -0200
-categories: [latest, employment]
+categories: [employment]
 permalink: employerENVSION
 excerpt_separator: <!--more-->
 ---
