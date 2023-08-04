@@ -10,7 +10,7 @@ image: assets/images/content/Treetop/segmentation.png
 ---
 The final work for my Image Processing graduate course at [ICMC](https://www.icmc.usp.br/){:target="_blank"}. Done in collaboration with the [UFRRJ Forest Engineering department](http://www.if.ufrrj.br/inst/graduacao.html){:target="_blank"}'s [Bruno Mendonça](https://institutos.ufrrj.br/if/bruno-araujo-furtado-de-mendonca/){:target="_blank"} and Fernando Canto. 
 
-The main objective of this ongoing work is to segment drone-captured images of native forests into individual tree crowns. The main desired output is a simple counting of the trees, but any successful segmentation will also provide spacial data such as perimeter, area and altitude. This last one is possible because a 3d representation of the area is also available.
+The main objective of this ongoing work is to segment drone-captured images of native forests into individual tree crowns. The main desired output is a simple counting of the trees, but any successful segmentation will also provide spatial data such as perimeter, area and altitude. This last one is possible because a 3d representation of the area is also available.
 
 The specific images for this experiment are of a green area within the UFRRJ campus. Please visit the [project's GitHub page](https://github.com/anlutfi/SCC5830_final){:target="_blank"} for a full explanation and working <span class = "skill">Jupyter Notebook</span>. Code is all in <span class = "skill">Python</span>, using <span class = "skill">OpenCV</span> and <span class = "skill">Numpy</span>.
 
