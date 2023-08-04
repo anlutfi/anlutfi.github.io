@@ -10,7 +10,7 @@ show_tile: false
 
 Hi and welcome!<br><br>
 
-I am a generalist programmer with a special passion for art and entertainment. 
+I am a Computer Vision researcher with a special passion for art and entertainment. 
 <br><br>
 Here you will find things I've coded, written, and my resume. I'm also into photography, so there's a blog too.
 <br><br>
